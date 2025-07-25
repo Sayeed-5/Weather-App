@@ -37,19 +37,19 @@ async function checkWheather(city){
 
     switch(wheather_data.weather[0].main){
         case 'Clouds':
-            wheather_img.src = "/images/cloud.png"
+            wheather_img.src = "images/cloud.png"
             break;
         case 'Clear':
-            wheather_img.src = "/images/clear.png"
+            wheather_img.src = "images/clear.png"
             break;
         case 'Rain':
-            wheather_img.src = "/images/rain.png"
+            wheather_img.src = "images/rain.png"
             break;
         case 'Mist':
-            wheather_img.src = "/images/mist.png"
+            wheather_img.src = "images/mist.png"
             break;
         case 'Snow':
-            wheather_img.src = "/images/snow.png"
+            wheather_img.src = "images/snow.png"
             break;
     }
 
